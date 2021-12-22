@@ -55,6 +55,11 @@ h1 {
   align-content: center;
   display: flex;
   text-align: center;
+  background-image: url(assets/bg.png);
+  background-repeat:no-repeat;
+  background-position: top center;
+  background-size:     cover;
+
 }
 
 .member-page > div {
@@ -115,9 +120,10 @@ h1 {
 }
 
 button {
+  display: inline-block;
   cursor: pointer;
-  background-color: #000;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   border: none;
   font-weight: bold;
   font-family: inherit;
@@ -128,11 +134,11 @@ button {
 }
 
 button:hover {
-  background-color: #121212;
+  background-color: #b887ff;
 }
 
 button:focus {
-  background-color: #222;
+  background-color: #d2b4ff;
 }
 
 button:disabled {
